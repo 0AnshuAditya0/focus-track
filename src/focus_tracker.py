@@ -6,7 +6,7 @@ from datetime import datetime
 import time
 
 print("Loading model...")
-model = keras.models.load_model('models/emotion_model.keras')
+model = keras.models.load_model('../models/emotion_model.keras')
 print(" Model loaded!")
 
 emotions = ['angry', 'disgust', 'fear', 'happy', 'neutral', 'sad', 'surprise']
